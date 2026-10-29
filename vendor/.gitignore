@@ -1,0 +1,26 @@
+# Dependensi npm
+/node_modules/
+
+# Dependensi PHP yang dipasang ulang melalui Composer
+/vendor/autoload.php
+/vendor/bin/
+/vendor/composer/
+/vendor/maennchen/
+/vendor/markbaker/
+/vendor/phpoffice/
+/vendor/psr/
+
+# Berkas unggahan pengguna
+/uploads/
+
+# Konfigurasi lingkungan
+.env
+.env.*
+!.env.example
+
+# Log dan berkas editor
+*.log
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
